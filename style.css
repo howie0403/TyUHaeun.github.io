@@ -1,0 +1,28 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 120vh;
+  background-color: #fdf6f9;
+  overflow: hidden;
+}
+
+#scene {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+#tree {
+  width: 90%;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+/* 花びらの基本スタイル */
+.static-petal {
+  position: absolute;
+  width: 60px;
+  pointer-events: none;
+  transition: transform 4s ease-in, opacity 4s;
+}
